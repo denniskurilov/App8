@@ -35,9 +35,9 @@ and uses Thymeleaf templates for rendering UI views.
 ---
 
 ### CRUD Operations (via Web Interface)
-| Action | Endpoint | Description |
-|--------|-----------|-------------|
-| View all employees | `/employees` | Displays all employees in a table |
-| Add new employee | `/employees/new` | Shows a form to create a new employee |
-| Edit employee | `/employees/edit/{id}` | Shows a form to update existing employee |
-| Delete employee | `/employees/delete/{id}` | Deletes an employee record |
+| Action | Endpoint                    | Description |
+|--------|-----------------------------|-------------|
+| View all employees | `/employees/list`           | Displays all employees in a table |
+| Add new employee | `/employees/new`            | Shows a form to create a new employee |
+| Edit employee | `/employees/edit?id={id}`   | Shows a form to update existing employee |
+| Delete employee | `/employees/delete?id={id}` | Deletes an employee record |
