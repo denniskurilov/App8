@@ -1,4 +1,4 @@
-package com.denniskurilov.App8;
+package com.denniskurilov.app8;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
